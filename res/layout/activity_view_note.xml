@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.smartnote.AddNote"
+    android:background="#4B7FDE"
+    tools:ignore="MergeRootFrame" >
+<TextView 
+    android:id="@+id/no_notes"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textColor="#FFFFFF"
+    android:textSize="23sp"
+    android:text="@string/no_notes_string"
+    />
+<EditText
+    android:id="@+id/edit_search"
+    android:layout_below="@id/no_notes"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:textColor="#FFFFFF"
+    android:textColorHint="#FFFFFF"
+    android:inputType="text"
+    android:hint="@string/search_hint"
+    />
+<GridView 
+    android:id="@+id/gridview1"
+    android:layout_below="@id/edit_search"
+    android:background="#4B7FDE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="50dp"
+    android:gravity="center"
+    android:numColumns="1"
+    android:stretchMode="columnWidth" />
+</RelativeLayout>

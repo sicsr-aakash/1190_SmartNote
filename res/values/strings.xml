@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Smart Note</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_edit_note">Edit Note</string>
+    <string name="title_activity_view_note">Smart Note</string>
+    <string name="menu_about">About</string>
+    <string name="submit_addnote">Add Note</string>
+    <string name="submit_updatenote">Update Note</string>
+    <string name="add_note_title_hint">Enter Title</string>
+    <string name="add_by_voice">Add by Voice</string>
+    <string name="add_note_hint">What you want to remember today?</string>
+    <string name="add_tags_hint">Add Tags</string>
+    <string name="select_image">Select Image</string>
+    <string name="image">Image</string>
+    <string name="speech_prompt">Speak Something</string>
+    <string name="speech_not_supported">Your device does not support this feature</string>
+    <string name="delete">Delete</string>
+    <string name="no_notes_string">No Notes Found. Please create a new Note.</string>
+    <string name="save_sd">Save</string>
+    <string name="search_text">Search</string>
+    <string name="search_hint">Enter tag to search</string>
+    <string name="instructions">Instructions</string>
+    <string name="about">About Us</string>
+    <string name="showInstruction">
+        1. To Add a note click on the Pencil icon to the top right corner in the Homepage.\n
+        2. To save a note to External storage click on the Save icon in the top right corner while ADDING a note.\n
+        3. To use the Smart Alarm, just specify @time and @date annotations followed by time and date in the note body and the app will detect alarm automatically.\n
+        4. The format for time should be HH:MM and 24 hrs format. Please dont specify Am/Pm.\n
+        5. The format for date is DD-MM-YY and allowed sperators are period(.), slash(/) and Hyphen(-).\n
+        6. If the @date annotation is missing then by default the alarm is set for today.\n
+        7. The @time is necessary for alarm to be set.\n
+        8. To delete a note, click on the note from Homepage and click on the Delete icon in the top right corner of the pagen
+        9. A note can only be searched by its tag names. A note cannot be searched by Title, Body and Priority.\n
+        10. To search a note, click on the Search icon in the Homepage.
+    </string>
+
+    <color name="white">#FFFFFF</color>
+
+    <string-array name="priority_options">
+        <item>Enter Your Priority</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <style name="add_note">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#4B7FDE</item>
+    </style>
+
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_instructions">Instructions</string>
+
+</resources>
