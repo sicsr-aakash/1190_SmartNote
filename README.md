@@ -1,7 +1,7 @@
 1190_SmartNote
 ==============
 
-Name : SICSR Moodle Attendance App
+Name : Smart Note
 
 College / Institute Name : Symbiosis Institute of Computer Studies and Research
 
